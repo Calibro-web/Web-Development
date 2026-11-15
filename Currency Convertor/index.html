@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/all.min.css"
+      integrity="sha512-ApSLB1Pd3/bZN8fWB/RG9YhN/7bd9Hkf3AGaE2mPfebjrxagjuBtx2GcgdqIlJkUzwylBo61r9Xa9NmgBI0swA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <form>
+      <div class="main">
+        <div id="title">
+          <h1>Currency Converter</h1>
+        </div>
+        <div class="amount">
+          <p>Enter Amount</p>
+          <input type="text" value="1" name="amt" />
+        </div>
+        <div class="dropdowns">
+          <div class="from">
+            <div id="fromTitle">
+              <p>From</p>
+            </div>
+            <img src="https://flagsapi.com/US/shiny/64.png" alt="fromImg" />
+            <select name="fromSelect">
+            </select>
+          </div>
+          <div id="icon">
+            <i class="fa-solid fa-arrow-right-arrow-left"></i>
+          </div>
+          <div class="to">
+            <div id="toTitle">
+              <p>To</p>
+            </div>
+            <img src="https://flagsapi.com/IN/shiny/64.png" alt="toImg" />
+            <select name="toSelect">
+            </select>
+          </div>
+        </div>
+        <div id="excRate">
+          <p></p>
+        </div>
+        <div id="btn">
+          <button>Get Exchange Rate</button>
+        </div>
+      </div>
+    </form>
+    <script type="module" src="script.js"></script>
+    <script type="module" src="code.js"></script>
+  </body>
+</html>

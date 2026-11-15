@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #78a4cb;
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Verdana, sans-serif;
+}
+
+#title {
+  color: #ffbe91;
+  height: 70px;
+  background-color: #091819;
+  line-height: 4rem;
+}
+
+.choices {
+  display: flex;
+  align-items: center;
+  height: 45vh;
+  justify-content: center;
+  gap: 5rem;
+}
+
+.choices img {
+  height: 30vmin;
+  width: 30vmin;
+  object-fit: cover;
+  border: none;
+  border-radius: 50%;
+}
+
+.rock,
+.paper,
+.scissors {
+  height: 25vh;
+  width: 35vh;
+}
+
+.choices img:hover {
+  border: 5px solid #0f0209;
+  cursor: pointer;
+}
+
+.score {
+  margin-top: 20px;
+  display: flex;
+  gap: 25rem;
+  align-items: center;
+  justify-content: center;
+}
+
+#user,
+#comp {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+#user-score,
+#comp-score {
+  font-size: 45px;
+}
+
+#msg {
+  display: inline-block;
+  height: 60px;
+  width: 450px;
+  color: #f6f0f1;
+  font-size: 25px;
+  margin-top: 50px;
+  border: none;
+  border-radius: 20px;
+  line-height: 55px;
+  background-color: #0f1817;
+}
+
+#reset-btn {
+  margin-left: 65rem;
+  display: flex;
+  margin-top: -50px;
+  align-items: center;
+  justify-self: center;
+}
+
+#reset-btn button {
+  height: 50px;
+  width: 150px;
+  border: none;
+  border-radius: 10px;
+  font-size: 17px;
+  color: #f2f4f3;
+  background-color: #191819;
+}

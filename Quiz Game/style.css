@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  text-align: center;
+  color: #ffffff;
+  background-color: #303b4a;
+}
+
+.background img {
+  left: 0;
+  right: 0;
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  z-index: -1;
+}
+
+.navbar {
+  text-align: left;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar img {
+  margin: 20px auto auto 80px;
+  height: 100px;
+  width: 100px;
+  border: 5px solid #000000;
+  border-radius: 50%;
+}
+
+.navbar h1 {
+  font-size: 50px;
+  margin: 20vw auto;
+}
+
+.navbar p {
+  margin-right: 6vw;
+}
+
+.board {
+  margin-top: 25vh;
+  line-height: 1.5;
+  font-size: 20px;
+}
+
+.board button {
+  height: 60px;
+  width: 150px;
+  border: none;
+  font-size: 20px;
+  color: #ffffff;
+  border-radius: 10px;
+  background-color: #303b4a;
+  margin-top: 40px;
+}
+
+.main {
+  width: 60vw;
+  min-height: 65vh;
+  margin: 10vh auto 0;
+  padding: 25px;
+  border-radius: 1rem;
+  box-shadow: 1rem 1rem 2rem #000000;
+  background-color: #303b4a;
+}
+
+.question {
+  width: 100%;
+  margin: 25px auto 0;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.question p {
+  width: 100%;
+  margin-top: 20px;
+  font-size: 25px;
+  line-height: 1.5;
+  white-space: normal;
+  overflow-wrap: break-word;
+}
+
+.options {
+  width: 100%;
+  margin: 20px auto 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.options button {
+  width: 90%;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  font-size: 22px;
+  font-weight: 500;
+  box-shadow: 10px 10px 20px #000000;
+  white-space: normal;
+  overflow-wrap: break-word;
+}
+
+.slider {
+  margin-top: 15px;
+}
+
+.slider button {
+  height: 35px;
+  width: 100px;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  background-color: #3b82f6;
+  box-shadow: 6px 6px 12px #000000;
+}
+
+#result {
+  margin-top: 15vh;
+  font-size: 50px;
+  white-space: nowrap;
+}
+
+.hide,
+.none {
+  display: none;
+}
